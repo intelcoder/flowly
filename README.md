@@ -78,3 +78,15 @@ Flowly is a JavaScript library for creating dynamic forms with controlled naviga
     <input type="submit" data-wait="Please wait..." class="button is-invert is-submit w-button" value="Submit">
 </div>
 ```
+
+
+### Automatic ID Generation
+
+In Flowly, the `flowly-input-id` attribute is automatically generated for each input field. This eliminates the need for manual assignment of IDs, streamlining the form creation process. The library ensures that each input field has a unique identifier, enabling smooth navigation and error handling within the form.
+
+### Importing Flowly Script
+
+To use Flowly in your project, simply import the script from the provided URL and add it to your HTML file using the following script tag:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/intelcoder/flowly@v0.0.1/dist/flowly.js" type="module" defer></script>
