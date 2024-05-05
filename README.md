@@ -90,3 +90,4 @@ To use Flowly in your project, simply import the script from the provided URL an
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/intelcoder/flowly@v0.0.1/dist/flowly.js" type="module" defer></script>
+```
